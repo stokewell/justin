@@ -1,28 +1,60 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light" data-font="default">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>Justin Garbett</title>
-  <meta name="description" content="What I'm working on." />
-  <link rel="stylesheet" href="/css/tokens.css" />
-  <link rel="stylesheet" href="/css/blog.css" />
+
+  <!-- SEO and Open Graph metadata -->
+  <meta name="description" content="What I'm working on.">
+  <meta name="keywords" content="justin garbett, syntax, base, web framework, blog">
+  <meta name="author" content="Justin Garbett">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://stokewell.github.io/justin/">
+  <meta property="og:title" content="Justin Garbett">
+  <meta property="og:description" content="What I'm working on.">
+  <meta property="og:image" content="https://stokewell.github.io/syntax/demo/og-image.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://stokewell.github.io/justin/">
+  <meta property="twitter:title" content="Justin Garbett">
+  <meta property="twitter:description" content="What I'm working on.">
+  <meta property="twitter:image" content="https://stokewell.github.io/syntax/demo/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="../favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="manifest" href="../site.webmanifest">
+
+  <!-- Base styles -->
+  <link rel="stylesheet" href="../css/style.css?v=20230428">
+  <link rel="stylesheet" href="../css/layouts.css?v=20230428">
 </head>
 <body>
-  <header class="site-header">
-    <h1 class="site-title">Justin Garbett</h1>
-    <p class="site-tagline">What I'm working on.</p>
-  </header>
+  <main class="container my-5">
+    <header class="text-center mb-4">
+      <h1 class="site-title">Justin Garbett</h1>
+      <p class="site-tagline text-muted">What I'm working on.</p>
+    </header>
 
-  <main class="content">
-    <article class="post-preview">
-      <h2><a href="/posts/intro-to-syntax.html">Introducing Syntax & Base</a></h2>
-      <p class="preview">A typography-first framework and a powerful reset for fast, elegant web design.</p>
-    </article>
+    <section class="post-preview">
+      <h2 class="post-title">
+        <a href="/justin/posts/intro-to-syntax.html" class="link">Introducing Syntax & Base</a>
+      </h2>
+      <p class="lead">A typography-first framework and a powerful reset for fast, elegant web design.</p>
+    </section>
   </main>
 
-  <footer class="site-footer">
-    <p>&copy; 2025 Justin Garbett. Built with Syntax.</p>
+  <footer class="container text-center mt-5 py-4 border-top">
+    <p class="text-sm">&copy; 2025 Justin Garbett. Built with <a href="https://github.com/stokewell/syntax">Syntax</a>.</p>
   </footer>
 </body>
 </html>
